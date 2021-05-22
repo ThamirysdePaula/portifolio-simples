@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <title>Meu site</title>
+</head>
+<!--estilização-->
+<style> 
+html {
+    scroll-behavior: initial;
+}
+ body {
+     margin: 0;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ #topmenu{
+        display: flex;
+        background-color: rgb(10, 133, 155);
+        margin: 0;
+    }
+    #topmenu li{
+        color: white;      
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+
+    }
+    #topmenu li:first-child{
+        scroll-margin-right: auto;
+    }
+    .section1{
+        display: flex;
+        height: 33vh;
+        background-color: rgb(10, 133, 155);
+    }
+    .centralize{
+        margin: auto;
+        text-align-last: center;
+    }
+    .section2{
+        display: flex;
+        background-color: white;
+        width: 33v;
+    }
+    .imagemprojeto{
+        width: 15vw;
+        height: 15vw;
+        padding-left: 15px;
+    }
+
+    .section3{
+        display: flex;
+        background-color: #e5e6ea;
+        width: 33v;
+    }
+    footer{
+        background-color: black;
+        padding: 38px;
+        color: white;
+    }
+.botaovermelho{
+    background-color: rgb(163, 229, 238);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+    
+</style>
+<body>
+    <!--itens menu-->
+    <nav>
+        <ul id="topmenu"; >
+            <li>Logo</li>
+            <li>Home</li>
+            <li>Projetos</li>
+            <li>Contato</li>
+        
+        </ul>
+    </nav>
+  
+    <div class="section1"  >
+        <h1 class="centralize" style="color: rgb(10, 4, 4);">Nome</h1>
+        <a class="centralize" href="#projetos"><button class="botaovermelho">Meus projetos</button></a>
+    </div>
+    
+
+<div id="projetos" class="section2 centralize">
+    <table class="centralize">
+        <tr>
+            <td style="width:40%" ><img class="imagemprojeto"  src="aplicacoes-html-css-js-feed-1.png" alt=""></td>
+            <td style="width:60%; text-align:left">
+                <ul style="color: rgb(65, 4, 65);">
+                Projeto 1
+                <hr>
+                <li>Descrição do projeto</li>
+                <li>Tecnologia 1</li>
+                <li>Tecnologia 2</li>
+                <li>Tecnologia 3</li>
+                <li>Tecnologia 4</li>
+            </ul></td>
+        
+        </tr>
+    </table>
+</div>
+
+<div id="projetos" class="section3 centralize">
+    <table class="centralize">
+        <tr>
+            
+                <ul style="color: rgb(65, 4, 65);">
+                Projeto 2
+                <hr>
+                <li>Descrição do projeto</li>
+                <li>Tecnologia 1</li>
+                <li>Tecnologia 2</li>
+                <li>Tecnologia 3</li>
+                <li>Tecnologia 4</li>
+            </ul></td>
+            <td style="width:40%" ><img class="imagemprojeto"  src="aplicacoes-html-css-js-feed-1.png" alt=""></td>
+            <td style="width:60%; text-align:left">
+        
+        </tr>
+    </table>
+</div>
+
+<div id="projetos" class="section2 centralize">
+    <table class="centralize">
+        <tr>
+            <td style="width:40%" ><img class="imagemprojeto"  src="aplicacoes-html-css-js-feed-1.png" alt=""></td>
+            <td style="width:60%; text-align:left">
+                <ul style="color: rgb(65, 4, 65);">
+                Projeto 3
+                <hr>
+                <li>Descrição do projeto</li>
+                <li>Tecnologia 1</li>
+                <li>Tecnologia 2</li>
+                <li>Tecnologia 3</li>
+                <li>Tecnologia 4</li>
+            </ul></td>
+        
+        </tr>
+    </table>
+</div>
+
+<footer>
+    <h5 class="centralize">Criado por Nome</h5>
+</footer>
+
+</body>
+
+</html>
